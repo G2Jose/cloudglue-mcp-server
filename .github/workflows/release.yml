@@ -34,7 +34,7 @@ jobs:
 
       - name: Generate version string
         id: ver
-        run: echo "version=0.0-$(date -u +'%Y%m%dT%H%M%SZ')" >> "$GITHUB_OUTPUT"
+        run: echo "version=0.0.$(date -u +'%Y%m%dT%H%M%SZ')" >> "$GITHUB_OUTPUT"
 
       - name: SHA256 checksum
         run: |
