@@ -9,7 +9,7 @@
   },
   "server": {
     "type": "node",
-    "entry_point": "build/index.ts",
+    "entry_point": "build/index.js",
     "mcp_config": {
       "command": "node",
       "args": ["${__dirname}/build/index.js"],
@@ -38,7 +38,7 @@
     },
     {
       "name": "describe_video",
-      "description": "Get comprehensive transcripts and descriptions from individual videos with intelligent cost optimization. Automatically checks for existing transcripts before creating new ones. Use this for individual video analysis - for analyzing multiple videos in a collection, use retrieve_collection_descriptions instead. Supports YouTube URLs, Cloudglue URLs, and direct HTTP video URLs with different analysis levels."
+      "description": "Gets comprehensive video transcripts and descriptions with intelligent cost optimization. Automatically checks for existing transcripts before creating new ones. Use this for individual video analysis - for analyzing multiple videos in a collection, use retrieve_collection_descriptions instead. Supports YouTube URLs, Cloudglue URLs, and direct HTTP video URLs with different analysis levels."
     },
     {
       "name": "extract_video_entities",
